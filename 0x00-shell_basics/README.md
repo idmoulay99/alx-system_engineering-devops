@@ -10,3 +10,4 @@ rm /tmp/my_first_directory/betty : Delete the file betty. The file betty is in /
 rm -r /tmp/my_first_directory : Delete the directory my_first_directory that is in the /tmp directory.
 cd - : script that changes the working directory to the previous one.
 ls -la . .. /boot : script that lists all files  in the current directory and the parent of the working directory and the /boot directory
+file /tmp/iamafile : script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory
