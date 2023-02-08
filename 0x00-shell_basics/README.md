@@ -12,3 +12,4 @@ cd - : script that changes the working directory to the previous one.
 ls -la . .. /boot : script that lists all files  in the current directory and the parent of the working directory and the /boot directory
 file /tmp/iamafile : script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory
 ln -s /bin/ls ./__ls__ : Create a symbolic link to /bin/ls, named __ls__
+cp -ur *.html ../ : script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
